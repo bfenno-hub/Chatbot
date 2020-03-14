@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread -g  -rdynamic CMakeFiles/membot.dir/src/chatbot.o CMakeFiles/membot.dir/src/chatgui.o CMakeFiles/membot.dir/src/chatlogic.o CMakeFiles/membot.dir/src/graphedge.o CMakeFiles/membot.dir/src/graphnode.o  -o membot -L/usr/lib/x86_64-linux-gnu -pthread -lwx_gtk2u_core-3.0 -lwx_baseu-3.0 

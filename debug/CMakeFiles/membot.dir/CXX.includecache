@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatbot.cpp
+/home/fbrian/repos/Chatbot/src/chatbot.cpp
 iostream
 -
 random
@@ -16,21 +16,23 @@ algorithm
 ctime
 -
 chatlogic.h
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatlogic.h
+/home/fbrian/repos/Chatbot/src/chatlogic.h
 graphnode.h
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/graphnode.h
+/home/fbrian/repos/Chatbot/src/graphnode.h
 graphedge.h
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/graphedge.h
+/home/fbrian/repos/Chatbot/src/graphedge.h
 chatbot.h
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatbot.h
+/home/fbrian/repos/Chatbot/src/chatbot.h
 
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatbot.h
+/home/fbrian/repos/Chatbot/src/chatbot.h
 wx/bitmap.h
 -
 string
 -
+memory
+-
 
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatgui.cpp
+/home/fbrian/repos/Chatbot/src/chatgui.cpp
 wx/filename.h
 -
 wx/colour.h
@@ -40,17 +42,19 @@ wx/image.h
 string
 -
 chatbot.h
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatbot.h
+/home/fbrian/repos/Chatbot/src/chatbot.h
 chatlogic.h
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatlogic.h
+/home/fbrian/repos/Chatbot/src/chatlogic.h
 chatgui.h
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatgui.h
+/home/fbrian/repos/Chatbot/src/chatgui.h
 
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatgui.h
+/home/fbrian/repos/Chatbot/src/chatgui.h
 wx/wx.h
 -
+memory
+-
 
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatlogic.cpp
+/home/fbrian/repos/Chatbot/src/chatlogic.cpp
 fstream
 -
 sstream
@@ -66,47 +70,47 @@ tuple
 algorithm
 -
 graphedge.h
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/graphedge.h
+/home/fbrian/repos/Chatbot/src/graphedge.h
 graphnode.h
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/graphnode.h
+/home/fbrian/repos/Chatbot/src/graphnode.h
 chatbot.h
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatbot.h
+/home/fbrian/repos/Chatbot/src/chatbot.h
 chatlogic.h
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatlogic.h
+/home/fbrian/repos/Chatbot/src/chatlogic.h
 
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatlogic.h
+/home/fbrian/repos/Chatbot/src/chatlogic.h
 vector
 -
 string
 -
 chatgui.h
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatgui.h
+/home/fbrian/repos/Chatbot/src/chatgui.h
 
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/graphedge.cpp
+/home/fbrian/repos/Chatbot/src/graphedge.cpp
 graphnode.h
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/graphnode.h
+/home/fbrian/repos/Chatbot/src/graphnode.h
 graphedge.h
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/graphedge.h
+/home/fbrian/repos/Chatbot/src/graphedge.h
 
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/graphedge.h
+/home/fbrian/repos/Chatbot/src/graphedge.h
 vector
 -
 string
 -
 
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/graphnode.cpp
+/home/fbrian/repos/Chatbot/src/graphnode.cpp
 graphedge.h
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/graphedge.h
+/home/fbrian/repos/Chatbot/src/graphedge.h
 graphnode.h
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/graphnode.h
+/home/fbrian/repos/Chatbot/src/graphnode.h
 
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/graphnode.h
+/home/fbrian/repos/Chatbot/src/graphnode.h
 vector
 -
 string
 -
 chatbot.h
-/home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatbot.h
+/home/fbrian/repos/Chatbot/src/chatbot.h
 
 /usr/include/wx-3.0/wx/accel.h
 wx/defs.h

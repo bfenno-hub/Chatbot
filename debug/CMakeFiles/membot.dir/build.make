@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gscc/Repos/CppND-Memory-Management-Chatbot
+CMAKE_SOURCE_DIR = /home/fbrian/repos/Chatbot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gscc/Repos/CppND-Memory-Management-Chatbot/build
+CMAKE_BINARY_DIR = /home/fbrian/repos/Chatbot/debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/membot.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/membot.dir/flags.make
 
 CMakeFiles/membot.dir/src/chatbot.o: CMakeFiles/membot.dir/flags.make
 CMakeFiles/membot.dir/src/chatbot.o: ../src/chatbot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gscc/Repos/CppND-Memory-Management-Chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/membot.dir/src/chatbot.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/chatbot.o -c /home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatbot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fbrian/repos/Chatbot/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/membot.dir/src/chatbot.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/chatbot.o -c /home/fbrian/repos/Chatbot/src/chatbot.cpp
 
 CMakeFiles/membot.dir/src/chatbot.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/membot.dir/src/chatbot.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatbot.cpp > CMakeFiles/membot.dir/src/chatbot.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fbrian/repos/Chatbot/src/chatbot.cpp > CMakeFiles/membot.dir/src/chatbot.i
 
 CMakeFiles/membot.dir/src/chatbot.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/membot.dir/src/chatbot.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatbot.cpp -o CMakeFiles/membot.dir/src/chatbot.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fbrian/repos/Chatbot/src/chatbot.cpp -o CMakeFiles/membot.dir/src/chatbot.s
 
 CMakeFiles/membot.dir/src/chatbot.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/membot.dir/src/chatbot.o.provides.build: CMakeFiles/membot.dir/src/ch
 
 CMakeFiles/membot.dir/src/chatgui.o: CMakeFiles/membot.dir/flags.make
 CMakeFiles/membot.dir/src/chatgui.o: ../src/chatgui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gscc/Repos/CppND-Memory-Management-Chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/membot.dir/src/chatgui.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/chatgui.o -c /home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fbrian/repos/Chatbot/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/membot.dir/src/chatgui.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/chatgui.o -c /home/fbrian/repos/Chatbot/src/chatgui.cpp
 
 CMakeFiles/membot.dir/src/chatgui.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/membot.dir/src/chatgui.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatgui.cpp > CMakeFiles/membot.dir/src/chatgui.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fbrian/repos/Chatbot/src/chatgui.cpp > CMakeFiles/membot.dir/src/chatgui.i
 
 CMakeFiles/membot.dir/src/chatgui.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/membot.dir/src/chatgui.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatgui.cpp -o CMakeFiles/membot.dir/src/chatgui.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fbrian/repos/Chatbot/src/chatgui.cpp -o CMakeFiles/membot.dir/src/chatgui.s
 
 CMakeFiles/membot.dir/src/chatgui.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/membot.dir/src/chatgui.o.provides.build: CMakeFiles/membot.dir/src/ch
 
 CMakeFiles/membot.dir/src/chatlogic.o: CMakeFiles/membot.dir/flags.make
 CMakeFiles/membot.dir/src/chatlogic.o: ../src/chatlogic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gscc/Repos/CppND-Memory-Management-Chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/membot.dir/src/chatlogic.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/chatlogic.o -c /home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatlogic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fbrian/repos/Chatbot/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/membot.dir/src/chatlogic.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/chatlogic.o -c /home/fbrian/repos/Chatbot/src/chatlogic.cpp
 
 CMakeFiles/membot.dir/src/chatlogic.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/membot.dir/src/chatlogic.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatlogic.cpp > CMakeFiles/membot.dir/src/chatlogic.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fbrian/repos/Chatbot/src/chatlogic.cpp > CMakeFiles/membot.dir/src/chatlogic.i
 
 CMakeFiles/membot.dir/src/chatlogic.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/membot.dir/src/chatlogic.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gscc/Repos/CppND-Memory-Management-Chatbot/src/chatlogic.cpp -o CMakeFiles/membot.dir/src/chatlogic.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fbrian/repos/Chatbot/src/chatlogic.cpp -o CMakeFiles/membot.dir/src/chatlogic.s
 
 CMakeFiles/membot.dir/src/chatlogic.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/membot.dir/src/chatlogic.o.provides.build: CMakeFiles/membot.dir/src/
 
 CMakeFiles/membot.dir/src/graphedge.o: CMakeFiles/membot.dir/flags.make
 CMakeFiles/membot.dir/src/graphedge.o: ../src/graphedge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gscc/Repos/CppND-Memory-Management-Chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/membot.dir/src/graphedge.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/graphedge.o -c /home/gscc/Repos/CppND-Memory-Management-Chatbot/src/graphedge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fbrian/repos/Chatbot/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/membot.dir/src/graphedge.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/graphedge.o -c /home/fbrian/repos/Chatbot/src/graphedge.cpp
 
 CMakeFiles/membot.dir/src/graphedge.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/membot.dir/src/graphedge.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gscc/Repos/CppND-Memory-Management-Chatbot/src/graphedge.cpp > CMakeFiles/membot.dir/src/graphedge.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fbrian/repos/Chatbot/src/graphedge.cpp > CMakeFiles/membot.dir/src/graphedge.i
 
 CMakeFiles/membot.dir/src/graphedge.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/membot.dir/src/graphedge.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gscc/Repos/CppND-Memory-Management-Chatbot/src/graphedge.cpp -o CMakeFiles/membot.dir/src/graphedge.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fbrian/repos/Chatbot/src/graphedge.cpp -o CMakeFiles/membot.dir/src/graphedge.s
 
 CMakeFiles/membot.dir/src/graphedge.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/membot.dir/src/graphedge.o.provides.build: CMakeFiles/membot.dir/src/
 
 CMakeFiles/membot.dir/src/graphnode.o: CMakeFiles/membot.dir/flags.make
 CMakeFiles/membot.dir/src/graphnode.o: ../src/graphnode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gscc/Repos/CppND-Memory-Management-Chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/membot.dir/src/graphnode.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/graphnode.o -c /home/gscc/Repos/CppND-Memory-Management-Chatbot/src/graphnode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fbrian/repos/Chatbot/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/membot.dir/src/graphnode.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/graphnode.o -c /home/fbrian/repos/Chatbot/src/graphnode.cpp
 
 CMakeFiles/membot.dir/src/graphnode.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/membot.dir/src/graphnode.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gscc/Repos/CppND-Memory-Management-Chatbot/src/graphnode.cpp > CMakeFiles/membot.dir/src/graphnode.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fbrian/repos/Chatbot/src/graphnode.cpp > CMakeFiles/membot.dir/src/graphnode.i
 
 CMakeFiles/membot.dir/src/graphnode.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/membot.dir/src/graphnode.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gscc/Repos/CppND-Memory-Management-Chatbot/src/graphnode.cpp -o CMakeFiles/membot.dir/src/graphnode.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fbrian/repos/Chatbot/src/graphnode.cpp -o CMakeFiles/membot.dir/src/graphnode.s
 
 CMakeFiles/membot.dir/src/graphnode.o.requires:
 
@@ -195,7 +195,7 @@ membot: CMakeFiles/membot.dir/src/graphedge.o
 membot: CMakeFiles/membot.dir/src/graphnode.o
 membot: CMakeFiles/membot.dir/build.make
 membot: CMakeFiles/membot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gscc/Repos/CppND-Memory-Management-Chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable membot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fbrian/repos/Chatbot/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable membot"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/membot.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -216,6 +216,6 @@ CMakeFiles/membot.dir/clean:
 .PHONY : CMakeFiles/membot.dir/clean
 
 CMakeFiles/membot.dir/depend:
-	cd /home/gscc/Repos/CppND-Memory-Management-Chatbot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gscc/Repos/CppND-Memory-Management-Chatbot /home/gscc/Repos/CppND-Memory-Management-Chatbot /home/gscc/Repos/CppND-Memory-Management-Chatbot/build /home/gscc/Repos/CppND-Memory-Management-Chatbot/build /home/gscc/Repos/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fbrian/repos/Chatbot/debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fbrian/repos/Chatbot /home/fbrian/repos/Chatbot /home/fbrian/repos/Chatbot/debug /home/fbrian/repos/Chatbot/debug /home/fbrian/repos/Chatbot/debug/CMakeFiles/membot.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/membot.dir/depend
 
