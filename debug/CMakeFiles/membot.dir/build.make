@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/fbrian/repos/Chatbot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fbrian/repos/Chatbot/build
+CMAKE_BINARY_DIR = /home/fbrian/repos/Chatbot/debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/membot.dir/depend.make
@@ -59,7 +59,7 @@ include CMakeFiles/membot.dir/flags.make
 
 CMakeFiles/membot.dir/src/chatbot.cpp.o: CMakeFiles/membot.dir/flags.make
 CMakeFiles/membot.dir/src/chatbot.cpp.o: ../src/chatbot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fbrian/repos/Chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/membot.dir/src/chatbot.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fbrian/repos/Chatbot/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/membot.dir/src/chatbot.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/chatbot.cpp.o -c /home/fbrian/repos/Chatbot/src/chatbot.cpp
 
 CMakeFiles/membot.dir/src/chatbot.cpp.i: cmake_force
@@ -72,7 +72,7 @@ CMakeFiles/membot.dir/src/chatbot.cpp.s: cmake_force
 
 CMakeFiles/membot.dir/src/chatgui.cpp.o: CMakeFiles/membot.dir/flags.make
 CMakeFiles/membot.dir/src/chatgui.cpp.o: ../src/chatgui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fbrian/repos/Chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/membot.dir/src/chatgui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fbrian/repos/Chatbot/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/membot.dir/src/chatgui.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/chatgui.cpp.o -c /home/fbrian/repos/Chatbot/src/chatgui.cpp
 
 CMakeFiles/membot.dir/src/chatgui.cpp.i: cmake_force
@@ -85,7 +85,7 @@ CMakeFiles/membot.dir/src/chatgui.cpp.s: cmake_force
 
 CMakeFiles/membot.dir/src/chatlogic.cpp.o: CMakeFiles/membot.dir/flags.make
 CMakeFiles/membot.dir/src/chatlogic.cpp.o: ../src/chatlogic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fbrian/repos/Chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/membot.dir/src/chatlogic.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fbrian/repos/Chatbot/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/membot.dir/src/chatlogic.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/chatlogic.cpp.o -c /home/fbrian/repos/Chatbot/src/chatlogic.cpp
 
 CMakeFiles/membot.dir/src/chatlogic.cpp.i: cmake_force
@@ -98,7 +98,7 @@ CMakeFiles/membot.dir/src/chatlogic.cpp.s: cmake_force
 
 CMakeFiles/membot.dir/src/graphedge.cpp.o: CMakeFiles/membot.dir/flags.make
 CMakeFiles/membot.dir/src/graphedge.cpp.o: ../src/graphedge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fbrian/repos/Chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/membot.dir/src/graphedge.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fbrian/repos/Chatbot/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/membot.dir/src/graphedge.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/graphedge.cpp.o -c /home/fbrian/repos/Chatbot/src/graphedge.cpp
 
 CMakeFiles/membot.dir/src/graphedge.cpp.i: cmake_force
@@ -111,7 +111,7 @@ CMakeFiles/membot.dir/src/graphedge.cpp.s: cmake_force
 
 CMakeFiles/membot.dir/src/graphnode.cpp.o: CMakeFiles/membot.dir/flags.make
 CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fbrian/repos/Chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/membot.dir/src/graphnode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fbrian/repos/Chatbot/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/membot.dir/src/graphnode.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/graphnode.cpp.o -c /home/fbrian/repos/Chatbot/src/graphnode.cpp
 
 CMakeFiles/membot.dir/src/graphnode.cpp.i: cmake_force
@@ -140,7 +140,7 @@ membot: CMakeFiles/membot.dir/src/graphedge.cpp.o
 membot: CMakeFiles/membot.dir/src/graphnode.cpp.o
 membot: CMakeFiles/membot.dir/build.make
 membot: CMakeFiles/membot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fbrian/repos/Chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable membot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fbrian/repos/Chatbot/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable membot"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/membot.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/membot.dir/clean:
 .PHONY : CMakeFiles/membot.dir/clean
 
 CMakeFiles/membot.dir/depend:
-	cd /home/fbrian/repos/Chatbot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fbrian/repos/Chatbot /home/fbrian/repos/Chatbot /home/fbrian/repos/Chatbot/build /home/fbrian/repos/Chatbot/build /home/fbrian/repos/Chatbot/build/CMakeFiles/membot.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fbrian/repos/Chatbot/debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fbrian/repos/Chatbot /home/fbrian/repos/Chatbot /home/fbrian/repos/Chatbot/debug /home/fbrian/repos/Chatbot/debug /home/fbrian/repos/Chatbot/debug/CMakeFiles/membot.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/membot.dir/depend
 

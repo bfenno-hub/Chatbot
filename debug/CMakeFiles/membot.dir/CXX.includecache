@@ -32,52 +32,12 @@ string
 memory
 -
 
-/home/fbrian/repos/Chatbot/src/chatgui.cpp
-wx/filename.h
--
-wx/colour.h
--
-wx/image.h
--
-string
--
-chatbot.h
-/home/fbrian/repos/Chatbot/src/chatbot.h
-chatlogic.h
-/home/fbrian/repos/Chatbot/src/chatlogic.h
-chatgui.h
-/home/fbrian/repos/Chatbot/src/chatgui.h
-
 /home/fbrian/repos/Chatbot/src/chatgui.h
 wx/wx.h
 -
 memory
 -
 
-/home/fbrian/repos/Chatbot/src/chatlogic.cpp
-fstream
--
-sstream
--
-iostream
--
-vector
--
-iterator
--
-tuple
--
-algorithm
--
-graphedge.h
-/home/fbrian/repos/Chatbot/src/graphedge.h
-graphnode.h
-/home/fbrian/repos/Chatbot/src/graphnode.h
-chatbot.h
-/home/fbrian/repos/Chatbot/src/chatbot.h
-chatlogic.h
-/home/fbrian/repos/Chatbot/src/chatlogic.h
-
 /home/fbrian/repos/Chatbot/src/chatlogic.h
 vector
 -
@@ -85,12 +45,6 @@ string
 -
 chatgui.h
 /home/fbrian/repos/Chatbot/src/chatgui.h
-
-/home/fbrian/repos/Chatbot/src/graphedge.cpp
-graphnode.h
-/home/fbrian/repos/Chatbot/src/graphnode.h
-graphedge.h
-/home/fbrian/repos/Chatbot/src/graphedge.h
 
 /home/fbrian/repos/Chatbot/src/graphedge.h
 vector
@@ -103,6 +57,10 @@ graphedge.h
 /home/fbrian/repos/Chatbot/src/graphedge.h
 graphnode.h
 /home/fbrian/repos/Chatbot/src/graphnode.h
+chatlogic.h
+/home/fbrian/repos/Chatbot/src/chatlogic.h
+chatbot.h
+/home/fbrian/repos/Chatbot/src/chatbot.h
 
 /home/fbrian/repos/Chatbot/src/graphnode.h
 vector

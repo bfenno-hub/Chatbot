@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/fbrian/repos/Chatbot/src/chatbot.cpp" "/home/fbrian/repos/Chatbot/build/CMakeFiles/membot.dir/src/chatbot.cpp.o"
-  "/home/fbrian/repos/Chatbot/src/chatgui.cpp" "/home/fbrian/repos/Chatbot/build/CMakeFiles/membot.dir/src/chatgui.cpp.o"
-  "/home/fbrian/repos/Chatbot/src/chatlogic.cpp" "/home/fbrian/repos/Chatbot/build/CMakeFiles/membot.dir/src/chatlogic.cpp.o"
-  "/home/fbrian/repos/Chatbot/src/graphedge.cpp" "/home/fbrian/repos/Chatbot/build/CMakeFiles/membot.dir/src/graphedge.cpp.o"
-  "/home/fbrian/repos/Chatbot/src/graphnode.cpp" "/home/fbrian/repos/Chatbot/build/CMakeFiles/membot.dir/src/graphnode.cpp.o"
+  "/home/fbrian/repos/Chatbot/src/chatbot.cpp" "/home/fbrian/repos/Chatbot/debug/CMakeFiles/membot.dir/src/chatbot.cpp.o"
+  "/home/fbrian/repos/Chatbot/src/chatgui.cpp" "/home/fbrian/repos/Chatbot/debug/CMakeFiles/membot.dir/src/chatgui.cpp.o"
+  "/home/fbrian/repos/Chatbot/src/chatlogic.cpp" "/home/fbrian/repos/Chatbot/debug/CMakeFiles/membot.dir/src/chatlogic.cpp.o"
+  "/home/fbrian/repos/Chatbot/src/graphedge.cpp" "/home/fbrian/repos/Chatbot/debug/CMakeFiles/membot.dir/src/graphedge.cpp.o"
+  "/home/fbrian/repos/Chatbot/src/graphnode.cpp" "/home/fbrian/repos/Chatbot/debug/CMakeFiles/membot.dir/src/graphnode.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,3 +1,0 @@
-/home/fbrian/repos/Chatbot/build/CMakeFiles/rebuild_cache.dir
-/home/fbrian/repos/Chatbot/build/CMakeFiles/membot.dir
-/home/fbrian/repos/Chatbot/build/CMakeFiles/edit_cache.dir
