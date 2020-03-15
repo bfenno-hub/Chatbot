@@ -36,22 +36,12 @@ ChatBot::ChatBot(std::string filename)
 ChatBot::~ChatBot()
 {
     std::cout << "ChatBot Destructor" << std::endl;
-    /*
-    // deallocate heap memory
-    if(_image != NULL) // Attention: wxWidgets used NULL and not nullptr
-    {
-        std::cout << _image << std::endl;
-        delete _image;
-        _image = NULL;
-    }
-    */
 }
 
 //// STUDENT CODE
 ////
-
-/*
-ChatBot& ChatBot::operator=(ChatBot& other){
+/* 
+ChatBot& ChatBot::operator=(ChatBot& other){                    Started writing this but thought it should never happen and set it to delete.
     _image = std::make_unique<ChatBot>(*(other._image.get());
     
     _currentNode;
@@ -61,6 +51,7 @@ ChatBot& ChatBot::operator=(ChatBot& other){
 }
 */
 ChatBot::ChatBot(ChatBot&& other) noexcept{
+    std::cout << "ChatBot Move Constructor\n";
     _image = std::move(other._image);
     _currentNode = std::exchange(other._currentNode, nullptr);
     _rootNode = std::exchange(other._rootNode, nullptr);
@@ -69,6 +60,7 @@ ChatBot::ChatBot(ChatBot&& other) noexcept{
 
 
 ChatBot& ChatBot::operator=(ChatBot&& other) noexcept{
+    std::cout << "ChatBot Move Assignment\n";
     if (this == &other){
         return *this;
     }
@@ -78,8 +70,6 @@ ChatBot& ChatBot::operator=(ChatBot&& other) noexcept{
     _chatLogic = std::exchange(other._chatLogic, nullptr);
     return *this;
 }
-
-
 
 ////
 //// EOF STUDENT CODE

@@ -34,6 +34,7 @@ public:
     ChatBot(ChatBot& other) = delete;
     ChatBot& operator=(ChatBot& other) = delete;
     //move constructor
+    //could make these "= default;"
     ChatBot(ChatBot&& other) noexcept;
     //move assignment
     ChatBot& operator=(ChatBot&& other) noexcept;
