@@ -50,6 +50,37 @@ ChatBot::~ChatBot()
 //// STUDENT CODE
 ////
 
+/*
+ChatBot& ChatBot::operator=(ChatBot& other){
+    _image = std::make_unique<ChatBot>(*(other._image.get());
+    
+    _currentNode;
+    _rootNode;
+    _chatLogic;
+
+}
+*/
+ChatBot::ChatBot(ChatBot&& other) noexcept{
+    _image = std::move(other._image);
+    _currentNode = std::exchange(other._currentNode, nullptr);
+    _rootNode = std::exchange(other._rootNode, nullptr);
+    _chatLogic = std::exchange(other._chatLogic, nullptr);
+}
+
+
+ChatBot& ChatBot::operator=(ChatBot&& other) noexcept{
+    if (this == &other){
+        return *this;
+    }
+    _image = std::move(other._image);
+    _currentNode = std::exchange(other._currentNode, nullptr);
+    _rootNode = std::exchange(other._rootNode, nullptr);
+    _chatLogic = std::exchange(other._chatLogic, nullptr);
+    return *this;
+}
+
+
+
 ////
 //// EOF STUDENT CODE
 
