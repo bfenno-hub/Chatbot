@@ -30,9 +30,9 @@ public:
 
     //// STUDENT CODE
     ////
-    //copy constructor/assignment //no
-    ChatBot(ChatBot& other) = delete;
-    ChatBot& operator=(ChatBot& other) = delete;
+    //copy constructor/assignment 
+    ChatBot(ChatBot& other);
+    ChatBot& operator=(ChatBot& other);
     //move constructor
     //could make these "= default;"
     ChatBot(ChatBot&& other) noexcept;
@@ -45,6 +45,7 @@ public:
     void SetCurrentNode(GraphNode *node);
     void SetRootNode(GraphNode *rootNode) { _rootNode = rootNode; }
     void SetChatLogicHandle(ChatLogic *chatLogic) { _chatLogic = chatLogic; }
+    ChatLogic * GetChatLogicHandle() { return _chatLogic; }
     wxBitmap *GetImageHandle() { return _image.get(); }
 
     // communication

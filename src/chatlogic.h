@@ -22,7 +22,6 @@ private:
     // data handles (not owned)
     std::vector<GraphEdge *> _edges;
     ChatBot* _chatBot;
-
     ////
     //// EOF STUDENT CODE
 
@@ -45,7 +44,7 @@ public:
 
     // getter / setter
     void SetPanelDialogHandle(ChatBotPanelDialog *panelDialog);
-    //void SetChatbotHandle(ChatBot *chatbot);
+    void SetChatbotHandle(ChatBot *chatbot);
 
     // proprietary functions
     void LoadAnswerGraphFromFile(std::string filename);

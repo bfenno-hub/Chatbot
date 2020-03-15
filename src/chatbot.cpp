@@ -11,8 +11,7 @@
 // constructor WITHOUT memory allocation
 ChatBot::ChatBot()
 {
-    std::cout << "ChatBot Constructor without memory allocation" << std::endl;
-
+    std::cout << "ChatBot Constructor" << std::endl;
     // invalidate data handles
     _image = nullptr;
     _chatLogic = nullptr;
@@ -40,16 +39,36 @@ ChatBot::~ChatBot()
 
 //// STUDENT CODE
 ////
-/* 
-ChatBot& ChatBot::operator=(ChatBot& other){                    Started writing this but thought it should never happen and set it to delete.
-    _image = std::make_unique<ChatBot>(*(other._image.get());
+
+ChatBot::ChatBot(ChatBot& other){      
+
+    std::cout << "ChatBot Copy Constructor\n";
+
+    _image = std::make_unique<wxBitmap>(*(other._image.get()));
     
-    _currentNode;
-    _rootNode;
-    _chatLogic;
+    _currentNode = std::exchange(other._currentNode, nullptr);
+    _rootNode = std::exchange(other._rootNode, nullptr);
+    _chatLogic = std::exchange(other._chatLogic, nullptr);
 
 }
-*/
+
+ChatBot& ChatBot::operator=(ChatBot& other){      
+
+    std::cout << "ChatBot Copy Assignment\n";
+
+    if (&other == this){
+        return *this;
+    }
+
+    _image = std::make_unique<wxBitmap>(*(other._image.get()));
+    
+    _currentNode = std::exchange(other._currentNode, nullptr);
+    _rootNode = std::exchange(other._rootNode, nullptr);
+    _chatLogic = std::exchange(other._chatLogic, nullptr);
+
+    return *this;
+}
+
 ChatBot::ChatBot(ChatBot&& other) noexcept{
     std::cout << "ChatBot Move Constructor\n";
     _image = std::move(other._image);
@@ -60,8 +79,8 @@ ChatBot::ChatBot(ChatBot&& other) noexcept{
 
 
 ChatBot& ChatBot::operator=(ChatBot&& other) noexcept{
-    std::cout << "ChatBot Move Assignment\n";
-    if (this == &other){
+    std::cout << "ChatBot Move Assignment Operator\n";
+    if (&other == this){
         return *this;
     }
     _image = std::move(other._image);
