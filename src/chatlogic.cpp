@@ -204,14 +204,19 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
         }
     }
 
+    ChatBot cb;
+    cb.SetChatLogicHandle(this);
+    cb.SetRootNode(rootNode);
+    /*
     std::unique_ptr<ChatBot> cb = std::make_unique<ChatBot>("../images/chatbot.png");
     _chatBot = cb.get();
 
     cb->SetChatLogicHandle(this);
     // add chatbot to graph root node
     cb->SetRootNode(rootNode);
-    
+    */
     rootNode->MoveChatbotHere(std::move(cb));
+    
     
     ////
     //// EOF STUDENT CODE
@@ -221,12 +226,12 @@ void ChatLogic::SetPanelDialogHandle(ChatBotPanelDialog *panelDialog)
 {
     _panelDialog = panelDialog;
 }
-/*
+
 void ChatLogic::SetChatbotHandle(ChatBot *chatbot)
 {
     _chatBot = chatbot;
 }
-*/
+
 void ChatLogic::SendMessageToChatbot(std::string message)
 {
     _chatBot->ReceiveMessageFromUser(message);
